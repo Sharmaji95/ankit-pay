@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://repayment.epizy.com/$1 [R,L]
+RewriteRule ^(.*)$ https://demo.askrelocation.com/$1 [R,L]
 
 
 ErrorDocument 403 /
