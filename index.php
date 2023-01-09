@@ -1,6 +1,6 @@
 <?php
 $amount=$_GET['am'];
-$link = "upi://pay?pa=vinayvats52@oksbi&pn=Dues&tn=Loan_Dues&am=";
+$link = "upi://pay?pa=rpy.qrvaloremsta13298438@icici&pn=Dues&tn=Loan_Dues&am=";
 $newURL = $link.$amount;
 If($amount){
     echo $newURL;
