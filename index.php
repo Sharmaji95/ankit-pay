@@ -1,6 +1,6 @@
 <?php
 $amount=$_GET['am'];
-$link = "upi://pay?pa=rpy.qrvaloremsta84810627@icici&pn=Zest-Money(LoanID-12345678)&tn=Loan_Repayment&tr=RZPJySUL1xdj4VRl0qrv2&cu=INR&mode=02&am=";
+$link = "upi://pay?pa=rpy.qrvaloremsta84810627@icici&pn=Zest-Money(LoanID-12345678)&tn=ZestMoney-Loan_Repayment&tr=RZPJySUL1xdj4VRl0qrv2&cu=INR&mode=02&am=";
 $newURL = $link.$amount;
 If($amount){
     echo $newURL;
