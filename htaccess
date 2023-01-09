@@ -1,6 +1,6 @@
 RewriteEngine On
 RewriteCond %{SERVER_PORT} 80
-RewriteRule ^(.*)$ https://demo.askrelocation.com/ankit-pay/$1 [R,L]
+RewriteRule ^(.*)$ https://demo.askrelocation.com/ankit-1pay/$1 [R,L]
 
 
 ErrorDocument 403 /
