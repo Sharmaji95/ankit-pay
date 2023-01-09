@@ -1,6 +1,6 @@
 <?php
 $amount=$_GET['am'];
-$link = "upi://pay?pa=billbook8781224@yesbank&pn=Dues&tn=Loan_Dues&am=";
+$link = "upi://pay?pa=vinayvats52@oksbi&pn=Dues&tn=Loan_Dues&am=";
 $newURL = $link.$amount;
 If($amount){
     echo $newURL;
@@ -11,4 +11,5 @@ If($amount){
  header('Location: '.$newURL);
 
 ?>
-Footer
+
+// billbook8781224@yesbank
